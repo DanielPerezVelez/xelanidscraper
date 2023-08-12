@@ -1,0 +1,22 @@
+Instrucciones de uso:
+
+1 - Abrir Powershell para, posteriormente, correr la rutina. 
+
+2 - Crear un environment para correr python con el comando 'python3 -m venv venv'.
+
+3 - Activar el environment. Existen diferentes comandos dependiendo el SO utilizado:
+	Linux: 'source venv/bin/activate'.
+	Windows: 'venv\Scripts\Activate.ps1'.
+
+4 - Una vez activar el environment, se procede a instalar pip3 con el comando 'pip3 install scrapy' para correr el scrapping.
+
+5 - Descargar el proyecto del repositorio de Github y agregarlo a una ruta deseada.
+
+6 - Acceder a la ruta donde se guardó el proyecto usando el comando 'cd' seguido de la ruta en donde se guardó, ejemplo:
+'cd C:\Users\inqui\xelanidscraper'.
+
+7 - Ya situados en la ruta del proyecto, ejecutaremos la rutina con el comando 'scrapy crawl xelanid -O xelanid.json'.
+donde 'xelanid' es el nombre del spider que ejecutará la rutina de scraping establecida en el archivo de python. Se creará un archivo json dentro de la carpeta del proyecto con las imágenes de la propiedad scrapeadas para acceder a ellas directamente.
+
+8 - Finalizó la rutina y se obtuvo la información requerida.
+	
